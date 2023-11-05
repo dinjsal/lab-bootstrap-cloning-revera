@@ -1,0 +1,55 @@
+.before-latest-projects {
+    margin-bottom: 50px;
+}
+
+.drk:after {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('./starter-code/img/overlay.png');
+    background-color: #292929;
+    opacity: .9;
+}
+
+.carousel-icons {
+    background-color: salmon;
+    padding: 30px
+}
+
+.grey-font {
+    color: grey
+}
+
+.empty-div {
+    height: 5px;
+    background-color: salmon;
+}
+
+.black-bold {
+    color: #000;
+    font-weight: bold;
+}
+
+.revera {
+    padding: 50px 100px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.latest-posts {
+    margin-bottom: 30px;
+}
+
+.footer {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    background-color: #292929;
+}

@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revera Homepage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand text-dark" href="#">REVERA</a>
+          <a class="navbar-brand text-dark black-bold" href="#">REVERA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,6 +38,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item text-dark" href="#">Full Page</a></li>
+                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item text-dark" href="#">Child Page 1</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item text-dark" href="#">Child Page 2</a></li>
@@ -57,92 +59,114 @@
           <li data-target="#demo" data-slide-to="0" class="active"></li>
           <li data-target="#demo" data-slide-to="1"></li>
           <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
         </ul>
       
         <!-- The slideshow -->
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item drk active">
             <img class="d-block w-100" src="./starter-code/img/slider-1.jpg" alt="1">
-            <div class="carousel-caption">
-                <h5>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h5>
-                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            <div class="carousel-caption text-center">
+              <div class="mask text-light d-flex justify-content-center flex-column">
+                <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+                <p class="m-0">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                <br>
+                <br>
+                <form action="#">
+                  <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
+                </form>
+                <br>
+                <br>
               </div>
-            <form action="#">
-            <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
-            </form>
+              </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item drk">
             <img class="d-block w-100" src="./starter-code/img/slider-2.jpg" alt="2">
             <div class="carousel-caption">
-                <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+              <h2>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
                 <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                <br>
+                <br>
+                <form action="#">
+                  <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
+                </form>
+                <br>
+                <br>
               </div>
-            <form action="#">
-            <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
-            </form>
-          </div>
-          <div class="carousel-item">
+              </div>
+          <div class="carousel-item drk">
             <img class="d-block w-100" src="./starter-code/img/slider-3.jpg" alt="3">
             <div class="carousel-caption">
-            <h5>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h5>
+            <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
                 <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
-            </div>
-            <form action="#">
-            <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
-            </form>
-          </div>
+                <br>
+                <br>
+                <form action="#">
+                  <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
+                </form>
+                <br>
+                <br>
+              </div>
+              </div>
+          <div class="carousel-item drk">
+            <img class="d-block w-100" src="./starter-code/img/slider-4.jpg" alt="4">
+            <div class="carousel-caption">
+            <h2>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
+                <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                <br>
+                <br>
+                <form action="#">
+                  <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
+                </form>
+                <br>
+                <br>
+              </div>
+              </div>
         </div>
       
         <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
+          <span class="carousel-icons carousel-control-prev-icon"></span>
         </a>
         <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
+          <span class="carousel-icons carousel-control-next-icon"></span>
         </a>
-      
+
     </div>
 
-          <!-- <div class="carousel-item">
-            <img class="d-block w-100" src="./starter-code/img/slider-4.jpg" alt="Fourth slide">
-            <h5>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h5>
-                <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
-              </div>
-            <form action="#">
-            <a class="btn btn-outline-light" href="#" role="button">READ MORE</a>
-            </form>
-          </div>
-        </div>
-  -->
+    <div class="empty-div">
+    </div>
 
-    <hr class="border border-danger border-2 opacity-50">
-
-    <div class="text-center bg-danger text-white p-5">
-        <div class="row align-items-start">
+    <div class="web text-center bg-danger text-white p-5">
+    <div class="row align-items-start">
     <section class="col">
-    <p class="fs-2">Web design</p>
+    <h3><p>Web design</p></h3>
         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius. </p>
     </section>
 
     <section class="col">
-    <p class="fs-2">Web development</p>
+    <h3><p>Web development</p></h3>
         <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus. </p>    
     </section>
 
     <section class="col">
-    <p class="fs-2">User Interface</p>
+    <h3><p>User Interface</p></h3>
+    <p></p>
         <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida. </p>    
     </section>
+    
     </div>
     </div>
-
-    <hr class="border-danger border-2 opacity-50">
+    <div class="empty-div before-latest-projects">
+    </div>
 
     <div class="container border-bottom">
-        <span>LATEST PROJECTS</span>
+        <span class="black-bold">LATEST PROJECTS</span>
         <br>
-        <span>FEW OF THE LATEST PORTFOLIO ITEMS</span>
+        <span class="grey-font">FEW OF THE LATEST PORTFOLIO ITEMS</span>
     </div>
+
+    <br>
 
     <div class="container text-center">
         <div class="row align-items-start">
@@ -168,65 +192,63 @@
     </div>
     </div>
 
-    <div class="container">
-        <span>LATEST ARTICLES</span>
+    <br>
+    <div class="container border-bottom">
+        <span class="black-bold">LATEST ARTICLES</span>
         <br>
-        <span>LATEST POSTS FROM THE BLOG</span>
+        <span class="grey-font">LATEST POSTS FROM THE BLOG</span>
     </div>
 
-    <div class="container border-top">
-        <span>LATEST PROJECTS</span>
-        <br>
-        <span>FEW OF THE LATEST PORTFOLIO ITEMS</span>     
-    </div>
+    <br>
 
-    <div class="container text-left">
+    <div class="latest-posts container text-left">
         <div class="row align-items-start">
     <section class="col">
         <img src="./starter-code/img/slider-1.jpg" class="img-fluid" alt="dog-cat">
-        <p>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
-        <p>POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
-        <p>
+        <p class="black-bold">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
+        <p class="grey-font">POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
+        <p class="grey-font">
             Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
         </p>
     </section>
 
     <section class="col">
         <img src="./starter-code/img/slider-2.jpg" class="img-fluid" alt="poppy">
-        <p>Falauris sollicitudin quis dolor venenatis facilisis</p>
-        <p>POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
-        <p>
+        <p class="black-bold">Falauris sollicitudin quis dolor venenatis facilisis</p>
+        <p class="grey-font">POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
+        <p class="grey-font">
             Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]
         </p>
     </section>
 
     <section class="col">
         <img src="./starter-code/img/slider-3.jpg" class="img-fluid" alt="hiking">
-        <p>Suspendisse ornare, felis feugiat suscipit pharetra</p>
-        <p>POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
-        <p>
+        <p class="black-bold">Suspendisse ornare, felis feugiat suscipit pharetra</p>
+        <p class="grey-font">POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
+        <p class="grey-font">
             Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
         </p>
     </section>
 
     <section class="col">
         <img src="./starter-code/img/slider-4.jpg" class="img-fluid" alt="dog-flowers">
-        <p>Festibulum purus odio, ornare non posuere</p>
-        <p>POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
-        <p>
+        <p class="black-bold">Festibulum purus odio, ornare non posuere</p>
+        <p class="grey-font">POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY <span class="text-danger">ADMIN</span></p>
+        <p class="grey-font">
             Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]
         </p>
     </section>
     </div>
     </div>
 
-    <hr class="border border-danger border-2 opacity-50">
-    
-    <div class=" text-left bg-dark text-light">
+    <div class="empty-div">
+    </div>
+
+    <div class="revera text-left bg-dark text-light">
         <div class="row align-items-start">
      <section class="col">
         <p>REVERA</p>
-        <p>
+        <p class="grey-font">
             Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.
         </p>
     </section>
@@ -234,40 +256,40 @@
     <section class="col">
         <p>META</p>
         <section class="border-bottom">
-            <a href="#">Login</a>
+            <a href="#" class="grey-font">Login</a>
         </section>
         <section class="border-bottom">
-            <a href="#">Entries RSS</a>
+            <a href="#" class="grey-font">Entries RSS</a>
         </section>
         <section class="border-bottom">
-            <a href="#">Comments RSS</a>
+            <a href="#" class="grey-font">Comments RSS</a>
         </section>
         <section class="border-bottom">
-            <a href="#">WordPress.org</a>
+            <a href="#" class="grey-font">WordPress.org</a>
         </section>
     </section>
 
     <section class="col border-bottom">
         <p>ARCHIVES</p>
-        <a href="#">August 2013</a>
+        <a href="#" class="grey-font">August 2013</a>
     </section>
 
     <section class="col">
         <p>RECENT POSTS</p>
         <section class="border-bottom">
-            <a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
+            <a href="#" class="grey-font">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
         </section>
         <section class="border-bottom">
-            <a href="#">Nunc libero elit, iaculis nec augue non</a>
+            <a href="#" class="grey-font">Nunc libero elit, iaculis nec augue non</a>
         </section>
         <section class="border-bottom">
-            <a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a>
+            <a href="#" class="grey-font">Falauris sollicitudin quis dolor venenatis facilisis</a>
         </section>
         <section class="border-bottom">
-            <a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a>
+            <a href="#" class="grey-font">Phasellus aliquet iaculis neque accumsan aliquam</a>
         </section>
         <section class="border-bottom">
-            <a href="#">Vivamus blandit ipsum sed arcu euismod
+            <a href="#" class="grey-font">Vivamus blandit ipsum sed arcu euismod
             </a>
         </section>
     </section>
@@ -275,7 +297,7 @@
     </div>
     </div>
 
-    <div class="bg-dark text-light">
+    <div class="footer text-light">
         <section>
         <p>Copyright © 2018 revera - Just another demo Sites site.
         <br>
@@ -283,6 +305,8 @@
         </section>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
