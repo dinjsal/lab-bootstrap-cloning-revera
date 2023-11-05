@@ -1,3 +1,7 @@
+html {
+    font-family: sans-serif;
+}
+
 .before-latest-projects {
     margin-bottom: 50px;
 }
@@ -50,6 +54,6 @@
     font-size: 14px;
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left: 100px;
+    padding-left: 50px;
     background-color: #292929;
 }
